@@ -1,0 +1,60 @@
+===========================================   
+   ASP NET CORE ESSENCIAL
+===========================================
+
+>>> LINKS ÚTEIS
+https://jsoneditoronline.org/
+https://json2csharp.com/  [Faz a conversão de um código json em uma classe C#
+
+
+
+
+
+===========================================
+Comandos básicos
+===========================================
+dotnet 
+dotnet --version
+dotnet --info
+dotnet --list-sdks
+
+
+
+
+
+===========================================
+Preparando ambiente
+===========================================
+[ASP.NET CORE 8, C#, Entity Framework Core 7.x]
+
+>>> Visual Studio 2022   [https://visualstudio.microsoft.com/pt-br/downloads/]
+>>> >>> No Instalador, na aba CARGAS DE TRABALHO instale a opção ASPNET e DESENVOLVIMENTO WEB
+
+>>> Visual Studio Code   [https://code.visualstudio.com/]
+>>> >>> Instalar o plug-in "C# DEV KIT"
+
+>>> .NET 8   [https://dotnet.microsoft.com/pt-br/download]
+
+>>> MySQL    [https://dev.mysql.com/downloads/installer/]
+
+>>> Workbenck
+
+
+
+===========================================
+Criando minha primeira WEB API
+===========================================
+>>> Create a new Projetct
+>>> Filtre por: [C#, All Platforms, Web API]
+>>> >>> Selecione ASP.NET Core Web API >>>
+>>> Project Name: MinhaAPI
+>>> Location: Selecione a pasta para salvar o projeto
+>>> Solution name: Coloque o nome da solution (neste exemplo será o mesmo nome do projeto)
+>>> Desmarque: Place solution and project in the same directory
+>>> >>>
+>>> Framework: .NET 8.0
+>>> Authentication type: None
+>>> Marcar: Configure for HTTPS
+>>> Marcar: Enable OpneAPI support
+>>> Marcar: Use Controllers
+>>> Create
